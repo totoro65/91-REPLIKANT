@@ -1,6 +1,6 @@
 body {
   font-family:'Orbitron', sans-serif;
-  background-color:#44ab8f;
+  background-color:#ccffcc;
 	background-image:url('');
 	color: black;
        font-size: 21px;
@@ -12,17 +12,17 @@ body {
 header {
  color: white;
  background-color:none;
-background-color:#44ab8f;
+background-color:#ccffcc;
  background-image:url('');
   display:flex-center;
-   padding: 60px 0;
+   padding: 30x 0;
    
    font-size:21px;
 }
 
 header .row,
 footer .row {
-  color:#44ab8f;
+  color:black;
   background-color:silver;
 background-image:url(');
  
