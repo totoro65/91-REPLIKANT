@@ -1,0 +1,80 @@
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+            <script>window.jQuery || document.write('<script src="/js/plugins/jquery-3.3.1.min.js"><\/script>')</script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.7/js/swiper.min.js"></script>
+            <script src="/js/plugins/aemPlugin.complete.1.0.3.js"></script>
+            <script src="/js/main.js?1622190999"></script>
+        
+    
+        <script>
+            // discoのスライダーだけ別
+            $(window).on('load',function(){
+                var mainSlider = '.js-disco'
+                var thumbSlider = '.js-disco-thumb'
+
+                var mainSwiper = new Swiper(mainSlider,{
+                    effect: 'coverflow',
+                    loop: true,
+                    loopAdditionalSlides: 1,
+                    slidesPerView: 1.5,
+                    centeredSlides: true,
+                    coverflowEffect: {
+                        rotate: 0,
+                        stretch: 0,
+                        depth: 100,
+                        modifier: 1,
+                        slideShadows: false,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-disco-button-next',
+                        prevEl: '.swiper-disco-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-disco-pagination',
+                        clickable: true,
+                    },
+                    breakpoints: {
+                        768: {
+                            slidesPerView: 3,
+                            coverflowEffect: {
+                                depth: 0,
+                            },
+                        },
+                    }
+                });
+                
+                var thumbSwiper = new Swiper(thumbSlider, {
+                    centerInsufficientSlides: true,
+                    slideToClickedSlide: true,
+                    slidesPerView: 'auto',
+                    centeredSlides: true,
+                    loop: true,
+                });
+
+                mainSwiper.controller.control = thumbSwiper;
+                thumbSwiper.controller.control = mainSwiper;
+            });
+
+            //MOVIEのサムネイル押した際にサムネイル非表示にしてyoutubeを自動再生させる
+            $(function() {
+                $(".movie-content-wrap").on("click", function(){
+                    var youtubeId = $(this).attr('data-id');
+                    var iframeHtml = '<iframe width="800" height="450" src="https://www.youtube.com/embed/' + youtubeId + '?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+
+                    $('.movie-wrapper').find('iframe').remove();
+                    $(this).prepend(iframeHtml);
+
+                    videoControl("playVideo",$(this).children().prev("iframe"));
+                    $(this).children(".movie-thumb").fadeOut(1000);
+                });
+
+                function videoControl(action,tgt){
+                    var $playerWindow = $(tgt)[0].contentWindow;
+                    $playerWindow.postMessage('{"event":"command","func":"'+action+'","args":""}', '*');
+                }
+            });
+        </script>
+    
+
+
+
+                    </body>
