@@ -10,9 +10,9 @@ body {
 }
 
 header {
- color: black;
+ color: orange;
  background-color:none;
-background-color:silver;
+background-color:black;
  background-image:url('');
   display:flex-center;
    padding: 60px 0;
@@ -37,17 +37,17 @@ background-image:url(');
 
 h1 {
   color:white;
-  background-image:none;
-  height: flex-bottom;
-  font-weight: 16px;
-  margin: 19px;
-  display:center;
+  background-color: black;
+  height: flex-wrap;
+  font-weight: 11px;
+  margin: 11px;
+  display:top left;
   
   
 
 nav {
  background-color:black;
- color: white;
+ color: orange;
   display:flex-block;
   justify-content: flex-end;
 	display: center;
@@ -85,10 +85,10 @@ display :center-block;
 
 .jumbotron h2 {
 background-image:url('');
-  font-size: 27px;
-  font-weight: 16px;
-  margin: 8px;
-  color:grey ;
+  font-size: 24px;
+  font-weight: 14px;
+  margin: auto;
+  color:white ;
  
 
  
@@ -98,8 +98,8 @@ background-image:url('');
 
 .jumbotron h3 {
   Font-size: 16px;
-  margin: 0 0 8px;
-  color: ;yellow
+  margin: auto;
+  color:white;
   background-color:black;
   display:center;
  
