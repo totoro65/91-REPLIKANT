@@ -14,7 +14,7 @@ header {
  background-color:none;
 background-color:black;
  background-image:url('');
-  display:flex-center;
+  display:auto-center;
    padding: 60px 0;
    
    font-size:21px;
@@ -25,13 +25,14 @@ footer .row {
   color:grey;
   background-color:silver;
 background-image:url(');
+	
  
 
   
- display: center;
-  align-items: center;
-  color:white;
-  background-color:black;
+ display: auto-center;
+  align-items: auto-center;
+  color:orange;
+  background-color:silver;
   
 }
 
