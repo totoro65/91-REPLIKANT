@@ -10,14 +10,14 @@ body {
 }
 
 header {
- color: orange;
+ color: white;
  background-color:none;
-background-color:black;
+background-color:orange;
  background-image:url('');
   display:auto-center;
-   padding: 60px 0;
+   padding: auto;
    
-   font-size:21px;
+   font-size:auto;
 }
 
 header .row,
