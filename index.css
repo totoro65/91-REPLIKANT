@@ -12,7 +12,7 @@ body {
 header {
  color: white;
  background-color:none;
-background-color:orange;
+background-color:red;
  background-image:url('');
   display:auto-center;
    padding: auto;
@@ -22,8 +22,8 @@ background-color:orange;
 
 header .row,
 footer .row {
-  color:grey;
-  background-color:silver;
+  color:white;
+  background-color:red;
 background-image:url(');
 	
  
