@@ -11,7 +11,6 @@ body {
 
 header {
  color: white;
- background-color:none;
 background-color:red;
  background-image:url('');
   display:auto-center;
@@ -38,7 +37,7 @@ background-image:url(');
 
 h1 {
   color:white;
-  background-color: black;
+  background-color: red;
   height: flex-wrap;
   font-weight: 11px;
   margin: 11px;
@@ -48,7 +47,7 @@ h1 {
 
 nav {
  background-color:black;
- color: orange;
+ color: red;
   display:flex-block;
   justify-content: flex-end;
 	display: center;
@@ -68,7 +67,7 @@ color: black;
 	color: black; text-decoration: none;
 }
 	a:hover {
-		color:black;
+		color:yellow;
 	}
 
 .jumbotron {
@@ -101,13 +100,13 @@ background-image:url('');
   Font-size: 16px;
   margin: auto;
   color:white;
-  background-color:black;
+  background-color:red;
   display:center;
  
 }
 
 section .row img {
-  color:black;
+  color:white;
   display: center;
   
 
@@ -118,7 +117,7 @@ section .row img {
 
 .col-md-6 {
   color: black;
-  background-color: silver;
+  background-color: red;
   margin: 0 0 auto;
 }
 
@@ -130,13 +129,13 @@ section .row img {
 }
 
 .btn.btn-primary:hover {
-  color:white;
+  color:red;
   background-color: silver;
 	display: center;
 }
 
 .btn-secondary {
-  background-color:white ;
+  background-color:red ;
   color:black;
   margin: 0 0 0 7px
 }
@@ -153,16 +152,16 @@ section .row img {
 }
 
 figure img {
-  color:white;
-  width: 3px;
-  height: 3px;
+  color:red;
+  width: auto;
+  height: auto;
   background-color:black;
 
 }
 
 figure {
   margin-bottom:none;
-  color:black;
+  color:red;
 	display:center;
 }
 
@@ -179,13 +178,13 @@ footer {
 
 footer .col-sm-8 {
   background-color:white;
-  color:black;
+  color:red;
   display: flex-center;
   justify-content: flex-end;
 }
 
 footer ul {
   color:black;
-  background-color:white;
+  background-color:red;
   list-style: flex;
 }
