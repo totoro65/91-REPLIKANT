@@ -22,7 +22,7 @@ background-color:none;
 header .row,
 footer .row {
   color:white;
-  background-color:red;
+  background-color:grey;
 background-image:url(');
 	
  
@@ -30,7 +30,7 @@ background-image:url(');
   
  display: auto-center;
   align-items: auto-center;
-  color:orange;
+  color:white;
   background-color:silver;
   
 }
