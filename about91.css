@@ -1,6 +1,6 @@
-$dark:#131325;
+$red:#red;
 body {
-  background-color:$dark;
+  background-color:$url('wp4471179.jpg';
 }
 .flex-row {
   display:flex;
