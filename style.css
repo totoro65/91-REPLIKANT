@@ -11,7 +11,7 @@ body {
 
 header {
  color: white;
-background-color:none;
+background-color:#773322;
  background-image:url('wp4471205.webp');
   display:auto-center;
    padding: auto;
@@ -59,8 +59,8 @@ nav {
 
 a {
 color: black;
-  padding: 21px ;
-  margin:  21px;
+  padding: 27px ;
+  margin:  27px;
 }
   
   a {
@@ -117,19 +117,19 @@ section .row img {
 
 .col-md-6 {
   color: black;
-  background-color: red;
+  background-color:#5aace8 ;
   margin: 0 0 auto;
 }
 
 .btn.btn-primary {
-  border-radius: 11px;
-  border: 11px;
+  border-radius: 30;
+  border: 30x;
   color:white;
-  background-color:black ;
+  background-color: #5aace8;
 }
 
 .btn.btn-primary:hover {
-  color:red;
+  color:#5aace8;
   background-color: silver;
 	display: center;
 }
@@ -178,13 +178,13 @@ footer {
 
 footer .col-sm-8 {
   background-color:white;
-  color:red;
+  color:#5aace8;
   display: flex-center;
   justify-content: flex-end;
 }
 
 footer ul {
   color:black;
-  background-color:red;
+  background-color:#5aace8;
   list-style: flex;
 }
