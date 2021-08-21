@@ -4,7 +4,6 @@
 ![manik-roy-2nhLLwTDiCU-unsplash](https://github.com/totoro65/91-REPLIKANT/blob/main/manik-roy-2nhLLwTDiCU-unsplash.jpg?raw=true)
 ![pexels-ioana-motoc-4376212](https://github.com/totoro65/91-REPLIKANT/blob/main/pexels-ioana-motoc-4376212.jpg?raw=true)
 ![86-864169_i-will-data-entry-services-web-research-data](https://github.com/totoro65/CHOPPER/blob/main/86-864169_i-will-data-entry-services-web-research-data.png?raw=true)
-![pexels-lisa-9168971](https://github.com/totoro65/CHOPPER/blob/main/pexels-lisa-9168971.jpg?raw=true)
 ![pexels-suzy-hazelwood-9208102](https://github.com/totoro65/CHOPPER/blob/main/pexels-suzy-hazelwood-9208102.jpg?raw=true)
 ![uwp1327955](https://github.com/totoro65/CHOPPER/blob/main/uwp1327955.jpeg?raw=true)
 ![wp2461508](https://github.com/totoro65/CHOPPER/blob/main/wp2461508.jpg?raw=true)
