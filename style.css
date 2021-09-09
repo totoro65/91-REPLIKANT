@@ -1,6 +1,6 @@
 body {
   font-family:'Kaisei Opti', serif;
-  background-color:#773322;
+  background-color:none;
 	background-image:url('pexels-ioana-motoc-4376212.jpg');
 	color: white;
        font-size: 18px;
@@ -11,7 +11,7 @@ body {
 
 header {
  color: white;
-background-color:#773322;
+background-color:none;
  background-image:url('');
   display:auto-center;
    padding: auto;
