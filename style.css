@@ -12,7 +12,7 @@ body {
 header {
  color: white;
 background-color:none;
- background-image:url('');
+ background-image:url('pexels-ioana-motoc-4376212.jpg');
   display:auto-center;
    padding: auto;
    
@@ -23,7 +23,7 @@ header .row,
 footer .row {
   color:white;
   background-color:grey;
-background-image:url(');
+background-image:url('pexels-ioana-motoc-4376212.jpg);
 	
  
 
@@ -84,7 +84,7 @@ display :center-block;
 }
 
 .jumbotron h2 {
-background-image:url('');
+background-image:url('pexels-ioana-motoc-4376212.jpg');
   font-size: 24px;
   font-weight: 14px;
   margin: auto;
@@ -125,18 +125,18 @@ section .row img {
   border-radius: 30;
   border: 30x;
   color:white;
-  background-color: none;
+  background-color: black;
 }
 
 .btn.btn-primary:hover {
-  color:#5aace8;
-  background-color: silver;
+  color:white;
+  background-color: black;
 	display: center;
 }
 
 .btn-secondary {
-  background-color:red ;
-  color:black;
+  background-color:black ;
+  color:white;
   margin: 0 0 0 7px
 }
 .button {
@@ -152,7 +152,7 @@ section .row img {
 }
 
 figure img {
-  color:red;
+  color:white;
   width: auto;
   height: auto;
   background-color:black;
@@ -186,5 +186,6 @@ footer .col-sm-8 {
 footer ul {
   color:black;
   background-color:none;
+  background-image:url('pexels-ioana-motoc-4376212.jpg');
   list-style: flex;
 }
